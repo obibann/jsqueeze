@@ -77,6 +77,8 @@ class JSqueeze
     $argFreq,
     $specialVarRx,
     $keepImportantComments,
+    $local_tree,
+    $used_tree,
 
     $varRx = '(?:[a-zA-Z_$])[a-zA-Z0-9_$]*',
     $reserved = array(
